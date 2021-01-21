@@ -1,0 +1,95 @@
+import java.util.ArrayList;
+
+/**
+*
+*/
+
+public class Radio {
+
+	private ArrayList<String> radios;
+	private String[] radiosFAV;
+	private String EstadoAMoFM;
+
+	public Radio() {
+	}
+
+	public Radio (ArrayList<String> radios, String[] radiosFAV, String estadoAMoFM) {
+		this.radios = radios;
+		this.radiosFAV = radiosFAV;
+		EstadoAMoFM = estadoAMoFM;
+	}
+
+	public ArrayList<String> getRadios() {
+		return radios;
+	}
+
+	public void setRadios(ArrayList<String> radios) {
+		this.radios = radios;
+	}
+
+	public String[] getRadiosFAV() {
+		return radiosFAV;
+	}
+
+	public void setRadiosFAV(String[] radiosFAV) {
+		this.radiosFAV = radiosFAV;
+	}
+
+	public String getEstadoAMOFM () {
+		return EstadoAmoFM;
+	}
+
+	public void setEstadoAMoFM (String estadoAMoFM) {
+		EstadoAMoFM = estadoAMoFM;
+	}
+
+	public void Encender() {
+
+	}
+
+	public void Apagar() {
+
+	}
+
+	public void CambiarAMaFM() {
+
+	}
+
+
+	public void CambiarFMaAM() {
+
+	}
+
+	public void setCambiarEstacionAnterior (String estacionAnterior) {
+		this.estacionAnterior = estacionAnterior;
+	}
+
+	public String getCambiarEstacionAnterior () {
+		return estacionAnterior;
+	}
+
+	public void setCambiarEstacionProxima (String estacionProxima) {
+		this.estacionProxima = estacionProxima;
+	}
+
+	public String getCambiarEstacionProxima () {
+		return estacionProxima;
+	}
+
+	public void setGuardarEmisoraFav (String guardarEmisoraFav) {
+		this.guardarEmisoraFav = guardarEmisoraFav;
+	}
+
+	public String getGuardarEmisoraFav () {
+		return guardarEmisoraFav;
+	}
+
+	public void setElegirEmisoraFav (String elegirEmisoraFav) {
+		this.elegirEmisoraFav = elegirEmisoraFav;
+	}
+
+	public String getElegirEmisoraFav () {
+		return elegirEmisoraFav;
+	}
+
+}
