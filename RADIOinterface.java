@@ -2,15 +2,17 @@ import java.util.ArrayList;
 
 public interface RADIOinterface {
 
-	void apagar();
+	boolean apagar();
 	
-	void encender();
+	String encender();
 	
-	int ProximaEstacion(boolean emisoraAM, boolean moreVOL);
 	
-	int EstacionAnterior(boolean emisoraAM, boolean moreVOL);
+	/*	
+	int ProximaEstacion(boolean emisoraAM);
 	
-	void ADDfav(int pos);
+	int EstacionAnterior(boolean emisoraAM);
+	
+	void ADDfav(int pos, boolean AMFM);
 	
     void AMradios();
 	
@@ -22,10 +24,10 @@ public interface RADIOinterface {
 	
 	String showFAVS();
 	
-	String getFav();
+	String getFav(int pos);
 	
-	Integer getEstadoEmisoraAMoFM(boolean EstadoAMoFM);
-
+	Integer EmisoraAMoFM(boolean EstadoAMoFM);
+	*/
 	
 	
 	
